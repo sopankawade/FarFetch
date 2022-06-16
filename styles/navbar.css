@@ -1,0 +1,119 @@
+*{
+    font-family:"Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+}
+#navbar{
+    display: flex;
+    justify-content:space-between;
+   /*  border: 1px solid red; */
+    margin: auto;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+}
+#navbar div{
+    width: 30%;
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+#category{
+    display: flex;
+    gap: 30px;
+    /* border: 1px solid red; */
+}
+#icon{
+    display: flex;
+   /*  border: 1px solid red; */
+    gap: 30px;
+}
+#farfetch h1{
+    font-weight:800;
+}
+#icon div{
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 30px;
+    padding-left: 50%;
+}
+#navbar a{
+    text-decoration: none;
+    color: #222222;
+}
+
+#help{
+    display: flex;
+    padding: 25px;
+    gap: 3%;
+}
+#help div {
+    width: 30%;
+    border: 1px solid #d3c8c8;
+    padding: 10px;
+}
+
+
+#scanner{
+    width: 50%;
+    /* border: 1px solid red; */
+    margin: auto;
+    padding: 10px;
+    margin-top: 65px;
+    line-height: 22px;
+}
+#scanner #email{
+    display: flex;
+    /* border: 1px solid red; */
+}
+#scanner #emailme{
+    width: 60%;
+    margin-right: 40px;
+}
+#scanner #input{
+    margin-top: 25px;
+}
+#scanner #input input{
+    height: 45px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid #a9a2a2;
+}
+#scanner #input button{
+    height: 50px;
+    width: 90px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+
+
+#footer{
+    padding: 50px;
+    background-color: #222222;
+    color: white;
+    display: grid;
+    grid-template-columns: 29% 25% 18% 18%;
+    gap: 3%;
+    line-height: 22px;
+    margin-top: 75px;
+}
+/* #footer div {
+    border: 1px solid white;
+} */
+#footer #follow #social{
+    display: flex;
+    gap: 25px;
+}
+#final_footer{
+    margin-top: 100px;
+}
+
+
+
+
+/* ///////////////////// */
+
+
+

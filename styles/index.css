@@ -1,0 +1,177 @@
+#list{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    position: sticky;
+    top: 18%;
+    background-color: white;
+}
+#off{
+    display: flex;
+    padding: 0px 25px 0px 25px;
+    text-align: center;
+}
+#off h1{
+    font-size: 50px;
+}
+#off p{
+    font-size: 20px;
+}
+#off button, #beat button{
+    height: 50px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 650;
+}
+#off #sale, #beat #designer{
+    padding: 50px;
+    padding-top: 150px;
+}
+
+#beat{
+    display: flex;
+    text-align: center;
+    padding: 0px 25px 0px 25px;
+}
+#beat h1{
+    font-weight: normal;
+}
+#beat #designer p{
+    color: #76587c;
+}
+
+#rings{
+    display: flex;
+    padding: 0px 25px 0px 25px;
+    gap: 25px;
+    margin-bottom: 75px;
+    margin-top: 50px;
+}
+
+#hand{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-weight:100;
+}
+
+#boutiques{
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    gap: 4%;
+    padding: 0px 25px 0px 25px;
+}
+#boutiques div{
+    border: 1px solid rgb(222, 205, 205);
+    padding: 10px;
+    background-color: #f5f5f5;
+    text-align: left;
+}
+#boutiques p{
+    font-weight: bold;
+}
+#boutiques span{
+    color: #76587c;
+}
+#Season{
+    text-align: center;
+    margin-top: 50px;
+}
+#Season button{
+    margin-top: 50px;
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#fine{
+    display: flex;
+    height: 450px;
+    gap: 25px;
+    padding: 10px 25px 10px 25px;
+    margin: auto;
+    margin-top: 100px;
+}
+#fine h1{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30%;
+}
+
+#highlights{
+    text-align: center;
+}
+#highlights .img{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    gap: 2%;
+    padding: 10px 25px 10px 25px;
+    text-align: left;
+}
+#discover{
+    text-align: center;
+    margin-top: 100px;
+}
+#discover div{
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+/* .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  } */
+  
+  .dropdown {
+    /* position: relative; */
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    /* border: 1px solid red; */
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+/*   .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  } */
+
+

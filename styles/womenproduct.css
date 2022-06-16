@@ -1,0 +1,26 @@
+
+
+#main_container{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    height: auto;
+}
+/* #main_container div{
+    /* border: 1px solid black; 
+    background-color: rgb(236, 230, 230);
+} */
+#main_container div img{
+    width: 90%;
+    height: 300px;
+}
+
+#sort{
+    height: 35px;
+    width: 200px;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 100px;
+}

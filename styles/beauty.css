@@ -1,0 +1,73 @@
+#off1{
+    display: flex;
+    text-align: justify;
+}
+
+#off1 div{
+width: 50%;
+}
+#off1 #sale1 div{
+    padding-top: 40%;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+#off1 #sale1 h1{
+    font-size: 55px;
+}
+#off1 #sale1 p{
+    font-size: 20px;
+}
+#off1 #sale1 button{
+    height: 55px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#big_img{
+    text-align: center;
+    margin-top: 100px;
+}
+#big_img img{
+    display: block;
+    margin: auto;
+}
+
+#experts{
+    margin: auto;
+    width: 65%;
+    text-align: center;
+}
+#experts h1{
+    font-size: 55px;
+}
+#experts p{
+    font-size: 20px;
+}
+#experts button{
+    font-size: 16px;
+    width: 150px;
+    font-weight: bold;
+    height: 35px;
+    border-radius: 5px;
+}
+#off2{
+    display: flex;
+    text-align: center;
+}
+#off2 div{
+    width: 50%;
+}
+#sale2 div{
+    padding: 50px;
+    width: 75%;
+    margin: auto;
+}
+#sale2 button{
+    height: 55px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
