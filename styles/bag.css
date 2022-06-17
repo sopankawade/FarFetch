@@ -38,3 +38,13 @@
     margin: auto;
     padding-right: 100px;
 }
+#total{
+    font-size: 20px;
+}
+
+#checkout{
+    height: 35px;
+    width: 250px;
+    background-color: black;
+    color: white;
+}

@@ -55,4 +55,9 @@ console.log("products:", products);
      
 })
 
-document.getElementById("total").innerText = `Total:USD $${sum} ("import duties included")` ;
+document.getElementById("total").innerText = `Total:USD $${sum}` ;
+
+let goToCheckout = () =>{
+    localStorage.setItem("total", JSON.stringify(sum));
+    window.location.href = "checkout.html";
+}

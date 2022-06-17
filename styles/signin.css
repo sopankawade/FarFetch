@@ -1,0 +1,35 @@
+
+
+#login_form_div {
+    height: auto;
+    width: 350px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#login_form_div h1 {
+    text-align: center;
+}
+#login_form_div form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    margin-top: 35px;
+}
+#login_form_div form input {
+    height: 35px;
+    width: 250px;
+    border-radius: 5px;
+}
+#login_form_div button {
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #008080;
+    border: 1px solid #008080;
+    color: white;
+}

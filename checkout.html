@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="" />
+  <title>checkout</title>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/4eeb94ebc8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles/checkout.css">
+</head>
+
+<body>
+    <h1 style="margin-left: 45%;">FARFETCH</h1>
+    <div id="checkout">
+        
+        <div id="shippingDetails">
+            
+                <div id="ContactInformation">
+                    <div>
+                        <h2>Add your delivery address</h2>
+                    </div>
+                    <form id="ShippingAddress">
+                        <p>* Required fields</p>
+                        <div class="FirstLastName">
+                            <input type="text" id="UserFirstName" placeholder="First Name">
+                            <input type="text" id="UserLastName" placeholder="Last Name">
+                        </div>
+                        <div class="cityAddress">
+                            <input type="text" id="addresss" placeholder="Email address *">
+                            <p style="font-size: 14px; margin-top: -10px; margin-bottom: -10px;">Add a house number if you have one</p>
+                            <input type="text" id="optional" placeholder="Apartmet, suite, etc(optional)">
+                            <input type="text" id="city">
+                        </div>
+                        <div class="countryAddress">
+                            
+                            <!-- <input type="text" id="region" placeholder="Country/Region"> -->
+                            <!-- <input type="text" id="state" placeholder="State"> -->
+                            <select name="" id="Country">
+                                <option value="Country">Country</option>
+                                <option value="India">India</option>
+                                <option value="Indonesia">Indonesia</option>
+                                <option value="Iraq">Iraq</option>
+                                <option value="Ireland">Ireland</option>
+                                <option value="japan">japan</option>
+                                <option value="jamaica">jamaica</option>
+
+                            </select>
+                            <input type="text" id="region" placeholder="City">
+                            <input type="number" id="zipCode" placeholder="ZIP code">
+                        </div>
+                        <div class="PhoneNo">
+                            <input type="number" id="PhoneNo" placeholder="Phone">
+                        </div>
+                       
+                    </form>
+            </div>
+        </div>
+        <hr>
+        <div id="userCartinfo">
+
+            <div id="insidecart">
+                <div id="one"> </div>
+            </div>
+         
+                
+          
+                <div id="three">
+                    <div class="sub">
+                        <h4>Subtotal</h4>  <h4 id="sub">0</h4> 
+                    </div>
+             
+                </div>
+                <div id="four"> <h4>Total</h4> <h1 id="tota">0</h1></div>
+                <button id="continue" onclick="sigiinfunction()">Save and Continue</button>
+            
+        </div>
+    </div>
+</body>
+
+
+<script src="scripts/checkout.js"></script>

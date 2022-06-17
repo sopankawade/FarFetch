@@ -36,11 +36,10 @@ btn.addEventListener("click", function(){
 });
 
 
-let hr = document.createElement("hr")
 
 div2.append(div,pr,btn);
 
-container.append(div1,hr, div2)
+container.append(div1, div2)
 
 
 function addToBag(product){

@@ -13,7 +13,7 @@ function navbar() {
     </div>
     <div id="icon">
         <div>
-            <a href="#"class="btn trigger"><i class="fa-regular fa-user"></i></a>
+            <a href="signin.html"><i class="fa-regular fa-user"></i></a>
             <a href="#"><i class="fa-regular fa-heart"></i></a>
             <a href="bag.html"><i class="fa-solid fa-bag-shopping"></i></a>
         </div>    
